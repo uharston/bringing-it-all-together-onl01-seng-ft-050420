@@ -41,10 +41,10 @@ class Dog
   #   result = DB[:conn].execute(sql, name)
   # end
 
-  def update
-    sql = "INSERT INTO dog "
-
-  end
+  # def update
+  #   sql = "INSERT INTO dog "
+  # 
+  # end
 
 
 
