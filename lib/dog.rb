@@ -43,7 +43,7 @@ class Dog
 
   # def update
   #   sql = "INSERT INTO dog "
-  # 
+  #
   # end
 
 
