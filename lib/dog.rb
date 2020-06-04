@@ -36,11 +36,11 @@ class Dog
      @id = DB[:conn].execute("SELECT last_insert_rowid() FROM dogs")[0][0]
   end
 
-  def create(name:, breed:)
-    dog = Dog.new(name, breed)
-    dog.save
-    dog
-  end
+  # def create(name:, breed:)
+  #   dog = Dog.new(name, breed)
+  #   dog.save
+  #   dog
+  # end
 
   def self.find_by_name(name)
     sql = "SELECT * FROM dogs WHERE name = ?"
